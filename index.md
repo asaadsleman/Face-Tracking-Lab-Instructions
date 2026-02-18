@@ -58,7 +58,7 @@ In the Thonny shell, type:
 
 ```python
 import machine
-````
+```
 
 If there is no error, your Pico is ready.
 
@@ -161,7 +161,7 @@ If installation fails, notify the instructor.
 
 Download the skeleton project from:
 
-👉 YOUR-SKELETON-REPO-URL
+👉 [Code Skeleton - Getting Started](https://github.com/asaadsleman/Face-Tracking-with-Raspberry-Pi-Pico)
 
 Download ZIP → Extract → Open folder.
 
