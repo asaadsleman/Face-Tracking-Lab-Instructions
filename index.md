@@ -1,4 +1,4 @@
-````markdown
+
 # One-Axis Face Tracking Camera Lab
 
 Welcome to the Face Tracking Workshop!
@@ -320,5 +320,3 @@ Only one program can use the serial port at a time.
 If everything works:
 
 Congratulations — you have built a simple real-time computer vision control system.
-
-```
