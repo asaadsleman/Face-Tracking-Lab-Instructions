@@ -145,53 +145,92 @@ From this point forward, code runs on your laptop (not the Pico).
 
 ---
 
-## Step 6 — Install Required Packages
+Here is the **revised section** formatted for your `index.md`, using a direct ZIP download and installing from `requirements.txt` (safer and cleaner for students).
 
-Open Command Prompt and run:
+You can paste this directly into your GitHub Pages repo.
+
+---
+
+## Step 6 — Download the Code Skeleton (ZIP)
+
+Download the complete project as a ZIP file:
+
+👉 [Download Code Skeleton (ZIP)](https://github.com/asaadsleman/Face-Tracking-with-Raspberry-Pi-Pico/archive/refs/heads/main.zip)
+
+1. Download the ZIP file.
+2. Right-click → Extract All.
+3. Open the extracted folder.
+
+You should see:
+
+- requirements.txt
+- README.md
+- laptop/  
+- pico/  
+
+---
+
+## Step 7 — Install Required Python Packages
+
+Inside the extracted project folder:
+
+1. Click in the folder address bar.
+2. Type `cmd` and press Enter.
+   (This opens Command Prompt inside the project folder.)
+
+Run:
 
 ```
-pip install opencv-python pyserial
+
+pip install -r requirements.txt
+
 ```
+
+This installs:
+
+- opencv-python  
+- pyserial  
 
 If installation fails, notify the instructor.
 
 ---
 
-## Step 7 — Download Skeleton Code
-
-Download the skeleton project from:
-
-👉 [Code Skeleton - Getting Started](https://github.com/asaadsleman/Face-Tracking-with-Raspberry-Pi-Pico)
-
-Download ZIP → Extract → Open folder.
-
-You will edit:
-
-* laptop/face_tracking.py
-* pico/main.py
-
----
-
 # Face Detection — Phase A
 
-Open:
+Open the folder:
 
 ```
-laptop/face_tracking.py
+
+laptop
+
 ```
 
-Run the file.
+Then open:
+
+```
+
+face_tracking.py
+
+```
+
+Run the file:
+
+```
+
+python face_tracking.py
+
+```
 
 A green box should appear around your face.
 
 If it does not:
 
-* Increase lighting
-* Move closer to camera
-* Check webcam permissions
+- Increase lighting
+- Move closer to camera
+- Check webcam permissions
+- Make sure the webcam is not being used by another application
 
 ---
-
 ## Checkpoint 3
 
 Face detection must work before continuing.
